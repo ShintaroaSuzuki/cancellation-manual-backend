@@ -1,0 +1,18 @@
+name = "cancellation-manual-backend"
+compatibility_date = "2023-01-01"
+
+# [vars]
+# MY_VARIABLE = "production_value"
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+[[r2_buckets]]
+binding = "CANCELLATION_MANUAL_IMAGES"
+bucket_name = "cancellation-manual-images"
+
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-database"
+# database_id = ""
